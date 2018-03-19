@@ -1,0 +1,141 @@
+.sign-body{
+    background: url(../img/raffle/bj.png) no-repeat;
+    background-size: 100% 100%;
+}
+.scroll-wrap{
+	margin-bottom: 0;
+}
+.raffle-head{
+    width: 300px;
+    margin: 10px auto;
+    height: 260px;
+    background: url(../img/raffle/img_woo.png) no-repeat bottom center;
+    background-size: 250px 250px;
+    position: relative;
+}
+.raffle-head .jt{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: 140px;
+}
+.raffle-btn{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 100px;
+    left: 120px;
+}
+.foot-hd{
+	width: 118px;
+	height: 25px;
+	background: #efaf15;
+	border-radius: 12px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 25px;
+	color: #FFFFFF;
+}
+.foot-hd span{
+	color: #fe531f;
+}
+.foot-two{
+	margin-top: 5px;
+	display: flex;
+	justify-content: space-between;
+}
+.foot-two .teo{
+	width: 30%;
+	height: 30px;
+	text-align: center;
+	color: #ff8603;
+	line-height: 27px;
+}
+.foot-two .foot-left{
+	background: url(../img/raffle/img_left.png) no-repeat;
+	background-size: 100% 100%;
+	color: #ec420f;
+}
+.foot-right{
+	background: url(../img/raffle/img_-right.png) no-repeat;
+	background-size: 100% 100%;
+}
+.foot-last{
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 8px;
+}
+.last-a{
+	width: 100%;
+	height: 8px;
+	background: #fffee2;
+	opacity: 0.4;
+}
+.last-b{
+    width: 100%;
+    height: 30px;
+    background: url(../img/raffle/img_kaui.png) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    z-index: 11;
+}
+.last-l,.last-r{
+    position: absolute;
+    top: 5px;
+    width: 18px;
+    height: 18px;
+}
+.last-l{
+	left: -6px;
+}
+.last-r{
+	right: -6px;
+}
+.last-img{
+    position: absolute;
+    z-index: 37;
+}
+.yuan-l,.yuan-r{
+ 	position: absolute;
+    bottom: -2px;
+    width: 12px;
+    z-index: 14;
+
+}
+.yuan-l{
+	left: 11px;
+}
+.yuan-r{
+	right: 11px;
+}
+.last-box{
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    height: 96%;
+    color: #ffdd46;
+}
+.tiao{
+	width: 30px;
+	height: 2px;
+	background: url(../img/raffle/img_tiao.png) no-repeat;
+	background-size: 100% 100%;
+}
+.wen{
+	margin: 0 5px;
+}
+.last-c{
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 6px;
+    padding: 25px 15px 5px;
+    margin-top: -14px;
+    color: #a95800;
+}
+.chou{
+	display: none;
+}

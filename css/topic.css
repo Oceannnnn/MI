@@ -1,0 +1,231 @@
+.topic-header{
+    align-items: baseline;	
+}
+.topic-header .my { 
+    margin: 0 0 8px 14%;
+}
+/*立即参与*/
+.topic-go{
+	position: fixed;
+	bottom: 60px;
+}
+.topic-go a{
+    display: block;
+    width: 120px;
+    height: 30px;
+    padding: 0 0 0 10px;
+    background: #bd8d32 url(../img/btn/icon_camera.png) no-repeat 10px center;
+    background-size: 18px 14px;
+    text-align: center;
+    line-height: 30px;
+    color: #ffffff;
+    border-radius: 15px;
+}
+/*话题*/
+.topic-head{
+	overflow: hidden;
+	width: 100%;
+	padding: 10px;
+	background: #FFFFFF;
+	color: #555555;
+	position: fixed;
+	top: 41px;
+	left: 0;
+}
+.topic-items{
+	width: 20%;
+	height: 24px;
+	float: left;
+	text-align: center;
+	line-height: 23px;
+	border: 1px solid #FFFFFF;
+	border-radius: 4px;
+}
+.topic-items.on{
+	background: #eee;
+	color: #BB8E38;
+}
+.index-items{
+	margin-bottom: 8px;
+	overflow: hidden;
+	background: #FFFFFF;
+}
+.act-topic{
+	padding: 5px 10px;
+}
+.items-head{
+	padding: 5px 0;
+	overflow: hidden;
+}
+.head-left img{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+}
+.head-right{
+    margin-left: 8px;
+}
+.head-time{
+	background: url(../img/btn/iocn_clock.png) no-repeat left center;
+    background-size: 12px 12px;
+    padding: 0 0 0 18px;
+    color: #888888;
+}
+.hua{
+	color: #BB8E38;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.items-img img{
+	width: 33.33%;
+	padding: 5px;
+	float: left;
+}
+p.items-text {
+    width: 100%;
+    height: 40px;
+    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.items-foot{
+	border-top: 1px solid #D5D5D5;
+	box-sizing: border-box;
+	display: flex;
+	padding: 8px 0;
+	margin-top: 5px;
+	width: 100%;
+}
+.foot-to{
+	width: 50%;
+	color: #555555;
+	text-indent: 15%;
+}
+.to-left{
+	background: url(../img/btn/icon_thumb.png) no-repeat 30% center ;
+	background-size: 14px 14px;
+}
+.to-center{
+	background: url(../img/btn/icon_comments.png) no-repeat 30% center ;
+	background-size: 14px 14px;
+	border-left: 1px solid #D5D5D5;
+	border-right: 1px solid #D5D5D5;
+}
+.to-right{
+	background: url(../img/btn/icon_browse_xiao.png) no-repeat 30% center ;
+	background-size: 14px 14px;	
+}
+.to-right.on{
+	background: url(../img/btn/icon_browse.png) no-repeat 30% center ;
+	background-size: 14px 14px;	
+	color: #BB8E38;
+}
+
+/*话题详情*/
+.foot-flex{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background: #FFFFFF;
+}
+.report-topic .items-head{
+	display: flex;
+}
+.report-topic .items-txt{
+	margin-top: 5px;
+	padding: 0 0 5px 0;
+	border-bottom: 1px solid #D5D5D5;
+}
+/*发布*/
+.issue-header a{
+    padding: 10px 5px;
+    margin-top: -9px;
+}
+.issue-header a:last-child{
+    background: #BD8D32;
+    padding: 5px 10px;
+    color: #ffffff;
+    border-radius: 4px;
+
+}
+.issue-body{
+	background: #FFFFFF;
+	padding: 10px;
+	overflow: hidden;
+}
+textarea{
+	height: 100px;
+}
+.add-img{
+	overflow: hidden;
+	position: relative;
+}
+.img-items{
+	position: relative;
+	width: 25%;
+	padding: 5px;
+	float: left;
+}
+.img-box .upimg-div .z_file {
+    width: 80px;
+    height: 80px;
+}
+.z_photo .up-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.z_photo .z_file {
+    position: relative;
+}
+.z_file .add-img {
+    display: block;
+    width: 100%;
+}
+.z_file .file {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+}
+.close{
+    top: 11px;
+    right: -6px;
+    background-size: 8px 8px;
+}
+.upimg-div .up-section {
+    width: 80px;
+    height: 80px;
+}
+.z_photo .up-section {
+    position: relative;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+p.img-name-p{
+    display: none;
+}
+.up-section .close-upimg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    width: 12px;
+}
+.issue-foot{
+	margin-top: 10px;
+}
+.issue-hua{
+	padding: 2px 8px;
+	margin: 0 20px 10px 0;
+	border-radius: 2px;
+	background: #EEEEEE;
+	color: #888888;
+	float: left;
+}

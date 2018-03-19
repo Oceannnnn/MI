@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+*, body, div, p, h1, h2, h3, h4, h5, h6, ul, ol, li, form, fieldset, input, select, textarea, blockquote, th, td, dl, ul, dt, dd, nav {
+	margin: 0;
+	padding: 0;
+	font-family: '微软雅黑', Microsoft YaHei, Arial, Verdana, Helvetica, sans-serif;
+	
+}
+html,
+body {
+	overflow-x: hidden;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 12px!important;
+	width: 100%;
+	max-width: 640px;
+	margin: 0 auto;
+	background: #eee;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.pr{
+	position:relative;
+}
+.ps {
+  position: absolute;
+}
+a {
+	color:#333;
+	/*text-decoration: none;
+	display:block;*/
+}
+a:hover {
+	text-decoration: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.center{
+	text-align:center;
+}
+.right{
+	text-align:right;
+}
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+/* 文字省略 */
+.bg-f{
+	background-color:#FFF;}
+.ellipsis {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.gray-3{
+	color:#333;
+}
+.col-8{
+	color:#888;
+}
+.p0{
+	padding:0px;}
+.p5 { padding: 5px }
+.p10 { padding: 10px }
+.p15 { padding: 15px }
+.pr31{
+	padding: 0 31px;
+}
+.mt19{margin-top:19px ;}
+.mt17{margin-top:17px ;}
+.m5 { margin: 5px }
+.mt5 { margin-top: 5px }
+.mb5 { margin-bottom: 5px }
+.ml5 { margin-left: 5px }
+.mr5 { margin-right: 5px }
+.mt7 { margin-top: 7px }
+.mt8 { margin-top: 8px }
+.m10 { margin: 10px }
+.ml10 { margin-left: 10px }
+.mr10 { margin-right: 10px }
+.mt10 { margin-top: 10px }
+.mt45 { margin-top: 45px }
+.mt2 { margin-top: 2px }
+.mb7 { margin-bottom: 7px }
+.f18{
+	font-size:18px;
+	}
+.f16{
+	font-size:16px;
+	}
+.f12{
+	font-size:12px;
+	}
+.f14{
+	font-size:14px;
+	}
+.t-indent{
+	text-indent:2em;}
+.green{
+	color:#79c34b;}
+.oh{
+	overflow: hidden;
+}
+.dp_lb{
+	display: inline-block;
+}
+.am-divider-default{
+	border-top: 1px solid #D5D5D5;
+}
+.am-divider{
+	margin: 0rem auto;
+}
+.bor_bom{
+	border-bottom: 1px solid #D5D5D5;
+}
+.m_a{
+	margin: 0 auto;
+}
+.dflex{
+	display: flex;
+}
+input{
+	border: 0;
+	outline: medium;
+	-webkit-appearance: none;
+	background: none;
+	border-radius: 2px;
+}
+input:focus{
+	color:#BF9A52;
+}
+

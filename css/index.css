@@ -1,0 +1,155 @@
+
+/*都市主张*/
+.du_zhu{
+	width: 100%;
+	padding: 15px 0 12px 0;
+}
+/*<!--限时购部分-->*/
+.time_box{
+	padding: 20px 10px 25px 10px ;
+	overflow: hidden;
+	height: 100px;
+}
+.time_box .swiper-slide p{
+	margin: 10px 0 0;
+}
+
+ /*每日推荐*/  
+ .every_index{
+	padding: 8px 0 0 0 ;
+	overflow: hidden;
+	background: #EEEEEE;
+}
+.index_evr{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 36px;
+}
+.index_evr i{
+	display: inline-block;
+	width: 65px;
+	height: 15px;
+	background: url(../img/my/img_tiao.png) no-repeat;
+}
+.index_evr i.left{
+	transform: rotate(180deg);
+}
+.index_evr p{
+	color: #555555;
+	font-size: 14px;
+	padding: 0 8px;
+}
+/*<!--每日推荐详情-->*/
+.recommend_items{
+	padding: 10px 12px 10px 5px;
+	overflow: hidden;
+	background: #FFFFFF;
+}
+.recommend_items a{
+	position: relative;
+	display: flex;
+}
+.items_i i{
+	position: absolute;
+	bottom: 6px;
+	right: 0;
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background: url(../img/my/icon_del.png) no-repeat;
+	background-size: 100%;
+}
+.items_left{
+	padding: 5px 5px;
+}
+.items_left img{
+	width: 95px;
+	height: 95px;
+}
+.items_right{
+	position: relative;
+	padding: 7px 0 6px 0;
+}
+.items_right p{
+	font-size: 12px;
+	color: #555;
+}
+.items_price{
+	position: absolute;
+	bottom: 6px;
+	left: 0;
+}
+.items_end{
+    padding: 2px 23px;
+	position: absolute;
+	bottom: 6px;
+	right: 0;
+	padding: ;
+	border-radius:2px ;
+	background: #d3ab64;
+	font-size: 11px;
+	color: #fff;
+	text-align: center;
+}
+.coll_box .items_left img{
+	width: 78px;
+	height: 78px;
+}
+/*限时购*/
+.buy_time{
+	width: 100%;
+	height: 48px;
+}
+.buy_items{
+	width: 50%;
+	height: 100%;
+	text-align: center;
+	background: #363636;
+	color: #888888;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buy_items.on{
+	background: #D3AB64;
+	color: #FFFFFF;
+}
+/*<!--距离结束-->*/
+.buy_last{
+	width: 100%;
+	height: 33px;
+	line-height: 33px;
+	color: #555555;
+}
+.buy_last span{
+	background: #555555;
+	color: #FFFFFF;
+	padding: 0 2px;
+	border-radius: 2px;
+}
+/*进入导航*/
+.index-tab{
+	padding: 2px;
+	overflow: hidden;
+}
+.sta-items {
+    width: 33.333%;
+    padding: 2px;
+    float: left;
+    border-radius: 4px;
+    color: #333;
+}
+.sta-items .nei{
+	background: #FFFFFF;
+	text-align: center;
+}
+.sta-img{
+	width: 35%;
+	padding: 8px 0;
+	margin: 0 auto;
+}
+.sta-lit {
+    color: #999;
+    padding: 0 0 3px 0;
+}

@@ -1,0 +1,30 @@
+.comment_items{
+	padding: 16px 12px 0;
+	border-bottom:1px solid #D5D5D5 ;
+	color: #555555;
+}
+.comment-box{
+	padding-bottom: 17px;
+	border-bottom: 1px dashed #D5D5D5;
+	display: flex;
+}
+.comment-img{
+    width: 78px;
+    border-radius: 2px;
+    border: 1px solid #b0b0b0;
+    margin-right: 10px;	
+}
+.comment-star{
+	height: 45px;
+	line-height: 45px;
+}
+.comment-btn{
+    margin-top: 26px;
+    width: 75%;
+    margin: 60px auto 30px;
+    padding: 9px 0;
+    text-align: center;
+    font-size: 14px;
+    background: #D3AB64;
+    color: #FFFFFF;
+}

@@ -1,0 +1,46 @@
+.input{
+	background: #EEEEEE;
+}
+.find_box{
+	padding: 17px 7px 7px;
+}
+.find-head{
+	position: relative;
+	padding: 0 5px 3px;
+    background: url(../img/btn/arrow-right.png) no-repeat right 5px;
+    overflow: hidden;
+    background-size: 5px 10px;
+}
+.find_r{
+    position: absolute;
+    right: 10px;
+}
+.find-body img{
+	box-sizing: border-box;
+    border: 1px solid #888;
+}
+.find-img{
+	position: relative;
+	overflow: hidden;
+	display: block;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 5px;
+}
+.act-swiper a .find{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 21px;
+    background: rgba(153, 153, 153, 0.3);
+    line-height: 21px;
+    width: 100%;
+    color: #333333;
+    text-align: center;
+}
+.input{
+	border: none;
+}
+.find-scroll{
+	margin-top: 0;
+}

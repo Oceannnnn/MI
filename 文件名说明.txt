@@ -1,0 +1,41 @@
+1、about  关于
+2、buy-limit   限时购
+3、cart    购物车
+4、collection    我的收藏
+5、comment       发表评论
+6、coupon_ex    过期优惠券
+   coupon_get   获得优惠券 
+   coupon_not   未使用优惠券
+   coupon_used  已使用优惠券
+   coupon_order 优惠券
+7、customized   我的定制订单
+8、customized-character  字母链定制
+9、find   发现
+10、find_pin  品牌
+11、forget    忘记密码
+12、index     入口
+13、login     登录
+14、order     我的订单
+15、order-detail    订单详情
+16、pay-info      确认支付
+17、pay-success   成功支付
+18、personal      个人信息
+19、picked      自提门店选择
+20、productdetail    商品详情
+21、raffle      抽奖
+22、register    注册
+23、rent-details   租赁商品详情
+    rent-index     租赁首页
+    rent-order     租赁订单
+24、search       搜索
+25、set     设置
+26、sign    签到
+27、topic-details    话题内容
+    topic-index      话题首页
+    topic-issue      话题发布
+28、 write_order-hinfo    确认订单有地址 
+     write_order-noinfo   确认订单无地址 
+29、receiving-information-manage   管理收货信息
+    receiving-information-add       添加收货信息
+    address administration   收货地址管理
+    

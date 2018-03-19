@@ -1,0 +1,188 @@
+/*购物车*/
+.choose{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    margin-left: 2px;
+}
+.choose_p{
+	margin-left: 25px;
+}
+.cart_items{
+	margin-left: 85px;
+	height: 100%;
+}
+/*结算*/
+.totalbar{
+	position: fixed;
+    z-index: 30;
+    bottom: 50px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    max-width: 640px;
+    border-top: 1px solid #ccc;
+    background: #fff;
+}
+.fixbar .select-all{
+	width: 40px;
+    height: 50px;
+}
+.select-all label{
+	display: block;
+    position: absolute;
+    top: 0;
+    left: 3px;
+    width: 40px;
+    height: 50px;
+    background: url(../img/btn/default.png) no-repeat;
+    background-position: 5px center;
+    background-size: 18px 18px;
+}
+.select-all label.on{
+    background: url(../img/btn/selected.png) no-repeat;
+    background-position: 5px center;
+    background-size: 18px 18px;
+}
+.select-all input[type=checkbox]{
+	position: absolute;
+    display: block;
+    width: 40px;
+    height: 50px;
+    z-index: 99;
+    opacity: 0;
+}
+.remove{
+	width: 24px;
+    height: 24px;
+    margin-top: 9px;
+}
+.total-price{
+    color: #555555;
+    position: absolute;
+    right: 35%;
+    padding: 5px;
+}
+.total-price .price{
+	color: #ee2b53;
+}
+.total-price .fen{
+	
+}
+.gotobill{
+    width: 33.33%;
+    text-align: center;
+    line-height: 50px;
+    background: #CCCCCC;
+	background: #D3AB64;
+}
+.gotobill a{
+    color: #fff;
+}
+.mycart-list{
+	margin-bottom: 100px;
+}
+/*加入购物车*/
+
+.canvas-summary{
+    width: 100%;
+    height: 83px;
+    padding: 10px 0 0 10px;
+    border-bottom: 1px solid #CCCCCC;
+}
+.canvas-summary .img{
+    position: relative;
+    top: -32px;
+    background-color: #fff;
+    z-index: 10;
+    border: 1px solid #ccc;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    float: left;
+    margin-right: 1.1em;
+    height: 85px;
+    width: 85px;
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+}
+.canvas-body{
+    position: absolute;
+    top: 83px;
+    bottom: calc(35% + 45px);
+    overflow: auto;
+    padding: 0 12px 0 0;
+}
+.canvas-body .size{
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid #CCCCCC;
+    overflow: hidden;
+    width: 100%;
+}
+.size .body_size{
+    border: 1px solid #F3F3F3;
+    background: #F3F3F3;
+    border-radius: 2px;
+    padding: 0 9px;
+    height: 28px;
+    line-height: 28px;
+    color: #888888;
+    margin: 10px 5px 0;
+}
+.size .body_size.choosen{
+	border: 1px solid #D3AB64;
+}
+.size .body_size .ku{
+	margin-left: 10px;
+}
+.size .body_size.on{
+	background: #f6f6f6;
+	border: 1px solid #f6f6f6;
+	color: #CCCCCC;
+}
+.buy_num{
+	padding: 16px 0;
+	border-bottom: 1px solid #CCCCCC;
+}
+.num_b{
+	color: #555555;
+}
+.num_u{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -14px;
+}
+.num_u i{
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+}
+.num_u .num{
+    display: inline-block;
+    width: 30px;
+    height: 28px;
+    font-size: 13px;
+    text-align: center;
+    color: #333333;
+    background: #f3f3f3;
+    line-height: 28px;
+        margin: 0 1px;
+}
+.buy-prev{
+	background: #d5aa57 url(../img/my/Less.png) no-repeat center;
+    background-size: 50%;
+}
+.buy-next{
+	background: #d5aa57 url(../img/my/add.png) no-repeat center;
+    background-size: 50%;
+}
+.cart_num{
+	color: #bb8e38;
+	position: absolute;
+    bottom: 6px;
+    right: 0;
+}

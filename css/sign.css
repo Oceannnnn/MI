@@ -1,0 +1,97 @@
+.sign-body{
+    background: url(../img/my/bj.png) no-repeat;
+    background-size: 100% 100%;
+    padding: 8px 0 0;
+}
+.sign-head{
+	width: 90%;
+	/*height: 250px;*/
+	margin: 0 auto;
+	background: url(../img/my/组-1.png) no-repeat;
+	background-size: 100% 100%;
+	overflow: hidden;
+	margin-bottom: 17px;
+}
+.sign-foot{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.sign-items{
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.sign-items a{
+    width: 45%;
+    text-align: center;
+    padding: 5px 20px;
+    color: #d1a44e;
+    font-size: 14px;
+    background: #FFFFFF;
+    border-radius: 3px;
+}
+.sign-rule{
+	width: 80%;
+	margin: 20px auto;
+	color: #FFFFFF;
+}
+.rule{
+	margin-bottom: 10px;
+}
+.box p{
+	margin-bottom: 8px;
+}
+.scroll-wrap{
+	margin-bottom: 0;
+}
+.sign-tou{
+    width: 100%;
+    display: flex; 
+    justify-content: space-between;
+    padding: 20px 10px 0px 10px;
+    color: #FFFFFF;
+}
+.tou-left{
+    background: url(../img/get/icon_calendar.png) no-repeat left center;
+    background-size: 14px 14px;
+    padding-left: 20px;
+}
+.sign-xia{
+	width: 279px;
+	/*height: 200px;*/
+    background: #FFFFFF;
+	margin: 5% auto;
+	overflow: hidden;
+	position: relative;
+}
+tbody td{
+	border-right: 1px solid #D3AB64;
+	border-bottom: 1px solid #D3AB64;
+	color: #D3AB64;
+}
+tbody tr td:last-child{
+	border-right: none;
+}
+tbody tr:last-child td{
+	border-bottom: none;
+}
+thead{
+	background: #D3AB64;
+	color: #FFFFFF;
+}
+table td,th{
+    padding: 5px 12px;
+    text-align: center;
+}
+tbody tr:first-child td span{
+	font-size: 0;
+}
+td span{
+	color: #555555;
+}
+table td.bj.active{
+	background: url(../img/get/selected.png) no-repeat right 14px;
+    background-size: 14px 14px;
+}

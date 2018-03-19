@@ -1,0 +1,38 @@
+.input{
+	border: none;
+    border-radius: 2px;
+    background: #eaebed;
+}
+/*热搜*/
+.hot_left{
+	padding: 10px 6px;
+	color: #333333;
+	font-size: 14px;
+}
+.hot_right{
+	padding: 6px;
+	margin-left: 4px;
+}
+.hot_right a{
+	padding: 4px 16px;
+	color: #555555;
+	background: #EAEBED;
+	border-radius:2px ;
+}
+.his{
+    background: url(../img/my/icon_del.png) no-repeat 95% 7px;
+    background-size: 20px 20px;
+}
+.history_head{
+	padding: 10px 0;
+	color: #333333;
+}
+.history_head,.history_body{
+	border-bottom: 1px solid #e3e3e3;
+}
+.history_head p,.history_body p{
+	margin: 0 16px;
+}
+.history_body .history_head{
+	color: #777777;
+}

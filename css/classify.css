@@ -1,0 +1,158 @@
+body{
+	background: #f3f3f3;
+}
+.header-box{
+	padding: 0 95px;
+}
+.classify_box{
+	width: 66px;
+	text-align: center;
+	font-size: 14px;
+	padding: 10px 0;
+	color: #333;
+	position: relative;
+}
+.classify_box .heng{
+	width: 100%;
+	height: 3px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.classify_box .heng.on{
+	background: #ca9e4a;
+}
+
+/*<!-- 分类内容 -->*/
+.cate-list-container{
+    height: calc(100% - 146px);
+    -webkit-overflow-scrolling: touch;
+    overflow: scroll;
+    position: fixed;
+    max-width: 640px;
+}
+.cate-hd-list{
+	float: left;
+    width: 84px;
+    height: 100%;
+    -webkit-overflow-scrolling: touch;
+    overflow: scroll;
+}
+.cate-hd-list ul li{
+	background: #fff;
+    text-align: center;
+}
+.cate-hd-list ul li:first-child.cur a{
+	border-top: 0;
+}
+.cate-hd-list ul li.cur a{
+	border-right: 0;
+    border-left: 3px solid #ca9e4a;
+    background: #f3f3f3;
+    color: #333;
+}
+.cate-hd-list ul li a{
+	display: block;
+    padding: 20px 0;
+    text-align: center;
+    border: 1px solid #ded4ca;
+    border-bottom: 0;
+}
+.cate-info-container{
+	margin-left: 90px;
+    max-height: 100%;
+    -webkit-overflow-scrolling: touch;
+    overflow: scroll;
+}
+.cate-info-list li{
+	margin: 10px 0 0;
+    padding-right: 10px;
+    float: left;
+    width: 33.33%;
+}
+.cate-info-list li a img{
+	display: block;
+    border: 1px solid #e0d3cb;
+    border-radius: 5px;
+}
+.cate-info-list li a p{
+	margin: 6px 0 0;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #555;
+}
+.scroll-wrap{
+	width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.classify_z{
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+}
+.classify_z li{
+	width: 50%;
+	/*height: 240px;*/
+	border-bottom: 1px solid #ccc;
+	padding: 12px;
+	box-sizing: border-box;
+}
+.classify_z li:nth-of-type(2n+1){
+	border-right: 1px solid #ccc;
+}
+.classify_z h3{
+    margin: 10px 0 9px 0;
+    font-size: 13px;
+    font-weight: 400;
+    color: #333;
+    height: 40px;
+    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    word-break: break-all;
+}
+.price{
+	color: #EE2B3D;
+	font-size: 14px;
+}
+.new_p{
+	font-size: 10px;
+}
+.price-o{
+	color: #a2a2a2;
+}
+/*租赁首页*/
+.rent-scroll{
+	margin-bottom: 0;
+}
+.rent-sou{
+	padding: 10px;
+	background: #ffffff;
+	color: #555555;
+}
+.rent-sou a{
+	color: #555555;
+	padding: 0px 10px;
+}
+.rent-items{
+	background: url(../img/my/组-1951.png) no-repeat right center;
+    background-size: 6px 10px;
+}
+.rent-sort{
+	margin-top: 5px;
+}
+.rent-right{
+	margin-top: 1px;
+}
+.rent-items.active{
+	background: url(../img/my/组-1953.png) no-repeat right center;
+    background-size: 6px 12px;
+}
+.rent-items.on{
+	background: url(../img/my/组-1952.png) no-repeat right center;
+    background-size: 6px 10px;
+}
